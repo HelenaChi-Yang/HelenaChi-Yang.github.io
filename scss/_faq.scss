@@ -1,0 +1,153 @@
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 120px;
+    line-height: 120%;
+}
+
+.logo{
+    width: 50%;
+}
+
+.serviceCard{
+    border: solid 1px rgb(75, 75, 75);
+    border-radius: 16px;
+    width: 32%;
+    padding: 80px 40px;
+
+    h3{
+        font-size: 32px;
+        padding: 20px 0px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
+
+.co-founder-img-top{
+    position: relative;
+    img{
+        max-width: 16.5%;
+        padding: 10px 1%;
+    }
+}
+.co-founder-img-bottom{
+    position: relative;
+    img{
+        max-width: 14%;
+        padding: 10px 1%;
+    }
+}
+.mask{
+    position: absolute;
+    width: 116px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%);
+}
+.mask2{
+    position: absolute;
+    width: 116px;
+    height: 50px;
+    top: 0px;
+    right: 0px;
+    background: linear-gradient(to left, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%);
+}
+
+.aiTool{
+    max-width: 1920px;
+    background-color: white;
+    color:black;
+    margin: 0 auto;
+    border-radius: 160px;
+
+    .container{
+        .ai-search-bar{
+            background: #F2F2F2;
+            border-radius: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            color: #919191;
+        }
+    }
+}
+
+.aiButton{
+    padding: 10px 24px;
+}
+
+.aiTool-filter{
+    color: #919191;
+    font-weight: 400;
+    li{
+        padding: 20px;
+    }
+}
+
+.cardlist{
+    max-width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 30%;
+    border-radius:16px;
+    overflow:hidden;
+    border: solid 1px rgb(230, 230, 230);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .description{
+    padding: 20px 32px;
+    flex-grow:1;
+}
+
+.card .description h3{
+    padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.card .description p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.card .card-author{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: solid 1px rgb(230, 230, 230);;
+    border-bottom: solid 1px rgb(230, 230, 230);;
+}
+
+.card .card-link{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.co-worker{
+    .co-worker-card{
+        width: 32%;
+        background: rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        p{
+            padding: 20px 0px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            flex-grow: 1;
+        }
+    }
+}
